@@ -1,0 +1,107 @@
+body {
+	text-align: center;
+	color: black;
+	background-color: orange;
+}
+
+a {
+	text-decoration: none;
+}
+	
+.container {
+	display: grid;
+	grid-gap: 500px;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-bottom: 10px;
+	background-color: orange;
+}
+
+#box1 {
+	grid-column: 1/2;
+	grid-row: 1/2;
+	
+}
+
+#box2 {
+	grid-column: 2/2;
+	grid-row: 1/2;
+	padding: 10px;
+	font-size: 30px;
+}
+
+.main-header {
+	margin-bottom: 10px;
+	margin-left: 10px;
+	background-color: yellow;
+}
+
+.button {
+	padding: 5px 50px;
+	font-size: 20px;
+	margin: 10px;
+}
+
+#main-menu {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	background-color: violet;
+	grid-gap: 20px;
+	grid-template-columns: repeat( 6, 1fr 1fr );
+}
+
+.container1 > div {
+	padding: 125px;
+	border:	5px black solid;
+	text-align:	center;
+	background: white;
+	color: black;
+	margin-bottom: 30px;
+}
+
+.container1 {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#box3 {
+	grid-column: 1/2;
+	grid-row: 1/4;
+	font-family: verdana;
+	font-size: 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#box4 {
+	grid-column: 2/3;
+	grid-row: 1/4;
+	background-image: url(../images/index/10.jpg);
+	background-repeat: no-repeat;
+	background-size: 350px 700px;
+}
+
+
+#box5 {
+	grid-column: 3/4;
+	grid-row: 1/2;
+	background-image: url(../images/index/6.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#box6 {
+	grid-column: 3/4;
+	grid-row: 3/4;
+	background-image: url(../images/index/9.jpg);
+	background-repeat: no-repeat;
+	background-size: 430px 280px;
+}
+
+.footer {
+	border:	5px black solid;
+	background-color: pink;
+}
